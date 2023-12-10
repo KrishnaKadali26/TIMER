@@ -18,7 +18,7 @@ import  './styles.css'
             clearInterval(timerId);
         }
 
-    }, [startTimer,timerId])
+    }, [startTimer] )
 
 
 
