@@ -15,7 +15,7 @@ const Timer = () =>{
         },1000)
         return () =>clearInterval(timer);
 
-    },[timerId])
+    })
     return(
         <div>
           <h1>Timer</h1>
